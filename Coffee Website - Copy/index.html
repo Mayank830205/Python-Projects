@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- linking font font awesome for icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- linking swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Coffee Website</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nev-logo">
+                <h2 class="logo-text">Mayank</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Hello !</h2>
+                    <h3 class="subtitle">I'm Mayank Shringi</h3>
+                    <p class="discription">A Python Developer</p>
+                    
+                    <div class="buttons">
+                        <a href="#" class="button hire-me">HIRE ME</a>
+                        <a href="#" class="button my-works">MY WORKS</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="image\user-2.jpg" alt="Hero" class="hero-iamge">
+                </div>
+            </div>
+        </section>
+
+        <!-- about section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="image/about.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="text">I'm an aspiring data scientist with a strong foundation in Python and a passion for turning data into insights. I’ve worked on personal projects involving data cleaning, visualization, and building simple machine learning models using libraries like Pandas, NumPy, Matplotlib, and Scikit-learn.
+<br>
+I enjoy exploring datasets, uncovering patterns, and using data-driven approaches to solve problems. As a fresher, I’m eager to learn, grow, and contribute to real-world data science projects that make an impact.</p>
+                    <div class="social-link-list">
+                        <a href="https://github.com/Mayank830205" class="social-link"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mayank-shringi-28a536284/" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- resume section -->
+        <section class="menu-section" id="resume">
+            <h2 class="section-title">Resume</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="image/hot-beverages.png" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">Hot Beverages</h3>
+                        <p class="text">Wide range of Steaming hot coffee to make you fresh and light.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="image/cold-beverages.png" alt="Cold Beverages" class="menu-image">
+                        <h3 class="name">Cold Beverages</h3>
+                        <p class="text">Creamy and frothy cold coffee to make you cool.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="image/refreshment.png" alt="Refreshment" class="menu-image">
+                        <h3 class="name">Refreshment</h3>
+                        <p class="text">Fruit and icy refreshing drink to make feel refresh.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="image/special-combo.png" alt="Special Combo" class="menu-image">
+                        <h3 class="name">Special Combo</h3>
+                        <p class="text">Your favorite eating and drinking combations.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="image/desserts.png" alt="Desserts" class="menu-image">
+                        <h3 class="name">Desserts</h3>
+                        <p class="text">Satiate your palate and take you on a culinary treat.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="image/burger-frenchfries.png" alt="Burger & French Fries" class="menu-image">
+                        <h3 class="name">Burger & French Fries</h3>
+                        <p class="text">Quick bites to satisfy your small size hunger.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- skills section -->
+        <section class="testimonials-section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user-1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Renu Pareta</h3>
+                                <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user-2.jpg" alt="User" class="user-image">
+                                <h3 class="name">Kartik Nama</h3>
+                                <i class="feedback">"Great espresso blend! Smooth and bold flavor. Fast spipping too!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user-3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Mayank Yadav</h3>
+                                <i class="feedback">"Fantastic mocha flavor. Fresh and aromatic. Quick shipping!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user-4.jpg" alt="User" class="user-image">
+                                <h3 class="name">Ritika</h3>
+                                <i class="feedback">"Excellent quality! Fresh beans and quick delivery. Highly recommend."</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="image/user-5.jpg" alt="User" class="user-image">
+                                <h3 class="name">Kunal Nama</h3>
+                                <i class="feedback">"Best decaf I've tried! Smooth and flavorful.   Arrived promptly"</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination "></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project section -->
+        <section class="gallery-section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="image/images.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="image/Employee.webp" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="image/gallery-3.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="image/gallery-4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="image/gallery-5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="image/gallery-6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- contact section -->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="section-content">
+                <div class="contact-image">
+                    <img src="image/about.jpg" alt="Contact Image">
+                </div>
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your Name" class="form-input" required>
+                    <input type="email" placeholder="Your Email" class="form-input" required>
+                    <textarea placeholder="Your Message" class="form-input" required></textarea>
+                    <button class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- footer section -->
+        <footer class="footer-section">
+                 <p class="copyright-text">Copyright ©2025 All rights reserved</p>
+        </footer>
+    </main>
+
+    <!-- linking swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- linking custom script -->
+    <script src="script.js"></script>
+</body>
+</html>
